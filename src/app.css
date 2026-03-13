@@ -1,0 +1,36 @@
+@import 'tailwindcss';
+
+@font-face {
+	font-family: 'Early Gameboy';
+	src: url('/fonts/Early_GameBoy.ttf');
+}
+@font-face {
+	font-family: 'Monocraft';
+	src: url('/fonts/Monocraft.ttf');
+}
+
+@theme {
+	--color-raisin: #0d0c07;
+	--color-gold-b: #2a2508;
+	--color-dis-txt: #5a4a10;
+
+	--color-grape: #6e00ff;
+	--color-dark-grape: #3f0e80;
+	--color-grapeshadow: #5723a0;
+
+	--color-yellow: #fae04d;
+	--color-gold: #e2b046;
+	--color-dark-gold: #cf8740;
+	--color-goldshadow: #531b0a;
+
+	--font-space-mono: 'Space Mono', monospace;
+	--font-workbench: 'Workbench', monospace;
+	--font-early-gameboy: 'Early GameBoy', monospace;
+	--font-monocraft: 'Monocraft', monospace;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	background-color: var(--color-raisin);
+}
