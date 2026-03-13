@@ -14,7 +14,7 @@
 </script>
 
 <section
-	class="font-monocraft bg-raisin border-gold-b mx-auto flex max-w-115 flex-col items-center border px-6 py-12"
+	class="font-monocraft bg-raisin border-gold-b mx-auto flex max-w-115 flex-col items-center border px-3 py-12 md:px-6"
 >
 	<Header />
 	<ScrambleGrid />
@@ -28,7 +28,7 @@
 	<ScanLine />
 </section>
 <section
-	class="font-monocraft bg-raisin border-gold-b mx-auto flex max-w-115 flex-col items-center border px-6 py-12"
+	class="font-monocraft bg-raisin border-gold-b mx-auto flex max-w-115 flex-col items-center border px-3 py-12 md:px-6"
 >
 	<div class="text-gold text-center text-xl">
 		Looking to volunteer? <br />
@@ -41,10 +41,10 @@
 	</div>
 </section>
 <section
-	class="font-monocraft bg-raisin border-gold-b mx-auto flex max-w-115 flex-col items-center border px-6 py-12"
+	class="font-monocraft bg-raisin border-gold-b mx-auto flex max-w-115 flex-col items-center border px-3 py-12 md:px-6"
 >
 	<SmCmt>// ABOUT</SmCmt>
-	<p class="text-gold text-lg mt-6">
+	<p class="text-gold mt-6 md:text-lg">
 		<span class="text-yellow">CCUHACKS</span> is teenager-run hackathon in Kolkata, India: a
 		<span class="text-yellow">24-hour sprint</span>
 		where students <span class="text-yellow">aged 13–19</span>
