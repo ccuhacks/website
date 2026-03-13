@@ -45,7 +45,7 @@
 >
 	<SmCmt>// ABOUT</SmCmt>
 	<p class="text-gold mt-6 md:text-lg">
-		<span class="text-yellow">CCUHACKS</span> is teenager-run hackathon in Kolkata, India: a
+		<span class="text-yellow">CCUHACKS</span> is a teenager-run hackathon in Kolkata, India: a
 		<span class="text-yellow">24-hour sprint</span>
 		where students <span class="text-yellow">aged 13–19</span>
 		build, break, and ship <span class="text-yellow">cool stuff.</span> Mentors, meals, and hardware on
