@@ -8,6 +8,10 @@
 
 	import { onMount } from 'svelte';
 
+	import { injectSpeedInsights } from '@vercel/speed-insights/sveltekit';
+
+	injectSpeedInsights();
+
 	onMount(() => {
 		gsap.registerPlugin(ScrollTrigger);
 		const lenis = new Lenis({ autoRaf: true });
