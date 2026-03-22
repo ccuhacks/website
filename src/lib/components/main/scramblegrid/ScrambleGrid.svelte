@@ -26,7 +26,7 @@
 		],
 		[
 			{ text: 'CXBBR YYJK JP', isContent: false },
-			{ text: '200 PARTICIPANTS', isContent: true },
+			{ text: '150 PARTICIPANTS', isContent: true },
 			{ text: 'C', isContent: false }
 		],
 		[
