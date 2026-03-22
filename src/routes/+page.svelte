@@ -41,7 +41,7 @@
 		{' <<<'}
 		<br>
 		<span class="text-raisin">
-			<LinkNT text="team@ccuhacks.in" href="/sponsorship_prospectus.pdf" />
+			<LinkNT text="sponsorship prospectus" href="/sponsorship_prospectus.pdf" />
 		</span>
 	</div>
 </section>
