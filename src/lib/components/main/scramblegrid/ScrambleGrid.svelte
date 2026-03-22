@@ -166,14 +166,14 @@
 	});
 </script>
 
-<div class="mt-10 text-[16px] leading-normal select-none md:text-xl">
+<div class="mt-10 text-xl leading-normal select-none md:text-[22px]">
 	{#each chars as line, li}
 		<div>
 			{#each line as seg, si}
 				{#each seg as cell, ci}
 					<span
 						role="none"
-						class={cell.isContent ? 'text-yellow' : 'text-dis-txt'}
+						class={cell.isContent ? 'text-snow' : 'text-dis-txt'}
 						onmouseenter={() => shuffleLR(li, si, ci)}>{cell.display}</span
 					>
 				{/each}

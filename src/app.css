@@ -11,24 +11,16 @@
 }
 
 @theme {
-	--color-raisin: #0d0c07;
-	--color-gold-b: #2a2508;
-	--color-dis-txt: #5a4a10;
+	--color-raisin: #1d2025;
+	--color-content-gutter: #282c34;
+	--color-dis-txt: #656b77;
 
-	--color-grape: #6e00ff;
-	--color-dark-grape: #3f0e80;
-	--color-grapeshadow: #5723a0;
+	--color-snow: #e2e2e2;
+	--color-snowflake: #abb2bf;
 
-	--color-yellow: #fae04d;
-	--color-gold: #e2b046;
-	--color-dark-gold: #cf8740;
-	--color-goldshadow: #531b0a;
-
-	--font-space-mono: 'Space Mono', monospace;
-	--font-workbench: 'Workbench', monospace;
-	--font-early-gameboy: 'Early GameBoy', monospace;
-	--font-monocraft: 'Monocraft', monospace;
-	--font-monocraft: 'Monocraft', monospace;
+	--font-orbit: 'Orbit', sans-serif;
+	--font-dotgothic: 'DotGothic16', 'JetBrains Mono', monospace;
+	--font-jetbrains: 'JetBrains Mono', monospace;
 }
 
 body {

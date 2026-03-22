@@ -14,24 +14,23 @@
 	];
 </script>
 
+<!-- <ScanLine /> -->
 <section
-	class="font-monocraft bg-raisin border-gold-b mx-auto flex max-w-115 flex-col items-center border px-3 py-12 md:px-6"
+	class="font-jetbrains bg-raisin border-content-gutter mx-auto flex max-w-115 flex-col items-center border px-3 py-12 md:px-6"
 >
 	<Header />
 	<ScrambleGrid />
 
-	<div class="text-yellow mt-10 grid w-full grid-cols-3 text-center">
+	<div class="text-snow mt-10 grid w-full grid-cols-3 text-center">
 		{#each gridinfo as info}
 			<InfoBox lg={info.lg} sm={info.sm} />
 		{/each}
 	</div>
-
-	<ScanLine />
 </section>
 <section
-	class="font-monocraft bg-raisin border-gold-b mx-auto flex max-w-115 flex-col items-center border px-3 py-12 md:px-6"
+	class="font-jetbrains bg-raisin border-content-gutter mx-auto flex max-w-115 flex-col items-center border px-3 py-12 md:px-6"
 >
-	<div class="text-gold text-center text-xl">
+	<div class="text-snowflake text-center text-xl">
 		Looking to volunteer? <br />
 		Looking to sponsor? <br />
 		{'>>> '}
@@ -39,21 +38,21 @@
 			<Link text="team@ccuhacks.in" href="mailto:team@ccuhacks.in" />
 		</span>
 		{' <<<'}
-		<br>
+		<br />
 		<span class="text-raisin">
-			<LinkNT text="sponsorship prospectus" href="/sponsorship_prospectus.pdf" />
+			<LinkNT text="view sponsorship prospectus" href="/sponsorship_prospectus.pdf" />
 		</span>
 	</div>
 </section>
 <section
-	class="font-monocraft bg-raisin border-gold-b mx-auto flex max-w-115 flex-col items-center border px-3 py-12 md:px-6"
+	class="font-jetbrains bg-raisin border-content-gutter mx-auto flex max-w-115 flex-col items-center border px-3 py-12 md:px-6"
 >
 	<SmCmt>// ABOUT</SmCmt>
-	<p class="text-gold mt-6 md:text-lg">
-		<span class="text-yellow">CCUHACKS</span> is a teenager-run hackathon in Kolkata, India: a
-		<span class="text-yellow">24-hour sprint</span>
-		where students <span class="text-yellow">aged 13–19</span>
-		build, break, and ship <span class="text-yellow">cool stuff.</span> Mentors, meals, and hardware on
+	<p class="text-snowflake mt-6 md:text-lg">
+		<span class="text-snow">CCUHACKS</span> is a teenager-run hackathon in Kolkata, India: a
+		<span class="text-snow">24-hour sprint</span>
+		where students <span class="text-snow">aged 13–19</span>
+		build, break, and ship <span class="text-snow">cool stuff.</span> Mentors, meals, and hardware on
 		us.
 	</p>
 </section>
