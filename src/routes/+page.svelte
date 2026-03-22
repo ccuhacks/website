@@ -49,10 +49,10 @@
 >
 	<SmCmt>// ABOUT</SmCmt>
 	<p class="text-snowflake mt-6 md:text-lg">
-		<span class="text-snow">CCUHACKS</span> is a teenager-run hackathon in Kolkata, India: a
-		<span class="text-snow">24-hour sprint</span>
-		where students <span class="text-snow">aged 13–19</span>
-		build, break, and ship <span class="text-snow">cool stuff.</span> Mentors, meals, and hardware on
+		<span class="text-lavender">ccuhacks</span> is a teenager-run hackathon in Kolkata, India: a
+		<span class="text-lavender">24-hour sprint</span>
+		where students <span class="text-lavender">aged 13–19</span>
+		build, break, and ship <span class="text-lavender">cool stuff.</span> Mentors, meals, and hardware on
 		us.
 	</p>
 </section>
