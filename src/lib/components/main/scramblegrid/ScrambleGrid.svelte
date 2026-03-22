@@ -7,25 +7,25 @@
 	type LineData = Segment[];
 
 	const lineData: LineData[] = [
-		[{ text: 'YRE VJ URVSP LWOSH JWPOX I SFF', isContent: false }],
+		[{ text: 'YRE VJ URVSP9 ZOSH JWPOX I SFF', isContent: false }],
 		[
-			{ text: 'BCU XR KUYFG ', isContent: false },
+			{ text: 'BCU1XR KU 2G ', isContent: false },
 			{ text: 'A HACKATHON', isContent: true },
 			{ text: 'QJ EMD', isContent: false }
 		],
 		[
-			{ text: 'XA', isContent: false },
+			{ text: 'NA', isContent: false },
 			{ text: 'FOR TEENAGERS', isContent: true },
 			{ text: ' X ', isContent: false },
 			{ text: 'BY TEENAGERS', isContent: true }
 		],
 		[
 			{ text: 'C LQW', isContent: false },
-			{ text: 'KOLKATA CITY', isContent: true },
-			{ text: 'B VCA LUJBD A', isContent: false }
+			{ text: 'KOLKATA, INDIA', isContent: true },
+			{ text: 'B VCA LUJ A', isContent: false }
 		],
 		[
-			{ text: 'CX POG LJK JP', isContent: false },
+			{ text: 'CXBBR YYJK JP', isContent: false },
 			{ text: '200 PARTICIPANTS', isContent: true },
 			{ text: 'C', isContent: false }
 		],

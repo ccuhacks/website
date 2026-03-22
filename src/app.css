@@ -4,6 +4,7 @@
 	font-family: 'Early Gameboy';
 	src: url('/fonts/Early_GameBoy.ttf');
 }
+
 @font-face {
 	font-family: 'Monocraft';
 	src: url('/fonts/Monocraft.ttf');
@@ -26,6 +27,7 @@
 	--font-space-mono: 'Space Mono', monospace;
 	--font-workbench: 'Workbench', monospace;
 	--font-early-gameboy: 'Early GameBoy', monospace;
+	--font-monocraft: 'Monocraft', monospace;
 	--font-monocraft: 'Monocraft', monospace;
 }
 

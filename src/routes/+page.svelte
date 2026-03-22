@@ -1,5 +1,6 @@
 <script lang="ts">
 	import Link from '$lib/components/link/Link.svelte';
+	import LinkNT from '$lib/components/link/LinkNT.svelte';
 	import ScrambleGrid from '$lib/components/main/scramblegrid/ScrambleGrid.svelte';
 	import Header from '$lib/components/main/header/Header.svelte';
 	import ScanLine from '$lib/components/scanline/ScanLine.svelte';
@@ -35,9 +36,13 @@
 		Looking to sponsor? <br />
 		{'>>> '}
 		<span class="text-raisin">
-			<Link text="ccuhacks@gmail.com" href="mailto:ccuhacks@gmail.com" />
+			<Link text="team@ccuhacks.in" href="mailto:team@ccuhacks.in" />
 		</span>
 		{' <<<'}
+		<br>
+		<span class="text-raisin">
+			<LinkNT text="team@ccuhacks.in" href="/sponsorship_prospectus.pdf" />
+		</span>
 	</div>
 </section>
 <section
