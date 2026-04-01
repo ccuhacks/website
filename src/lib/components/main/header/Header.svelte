@@ -2,7 +2,7 @@
 	import SmCmt from './SmCmt.svelte';
 </script>
 
-<div class="text-dis-txt w-full text-sm"><SmCmt>CCU, INDIA /// 2025</SmCmt></div>
+<div class="text-dis-txt w-full text-sm"><SmCmt>CCU, INDIA /// 2026</SmCmt></div>
 <div class="mt-2 w-full">
 	<img src="/logo_long.png" alt="CCUHACKS" class="w-full" />
 </div>

@@ -166,7 +166,7 @@
 	});
 </script>
 
-<div class="mt-10 text-xl leading-normal select-none md:text-[22px]">
+<div class="mt-10 text-lg leading-normal select-none md:text-[22px]">
 	{#each chars as line, li}
 		<div>
 			{#each line as seg, si}
