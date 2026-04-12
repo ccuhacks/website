@@ -9,7 +9,7 @@
 
 	const gridinfo = [
 		{ lg: '150', sm: 'HACKERS' },
-		{ lg: '13-18', sm: 'AGES' },
+		{ lg: '13-19', sm: 'AGES' },
 		{ lg: '24', sm: 'HOURS' }
 	];
 </script>
