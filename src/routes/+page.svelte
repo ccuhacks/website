@@ -58,7 +58,7 @@
 	class="font-jetbrains bg-raisin border-content-gutter mx-auto flex max-w-115 flex-col items-center border px-3 py-12 md:px-6"
 >
 	<SmCmt>// SPONSORS</SmCmt>
-	<div class="mt-6">
+	<div class="mt-6 overflow-hidden">
 		<SponsorMarquee />
 	</div>
 
