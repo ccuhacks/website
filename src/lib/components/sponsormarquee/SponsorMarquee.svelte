@@ -6,7 +6,7 @@
 	];
 </script>
 
-<div class="marquee-container w-full max-w-115">
+<div class="marquee-container w-full max-w-115 overflow-hidden">
 	<div class="group">
 		{#each sponsors as sponsor}
 			<div class="card">
