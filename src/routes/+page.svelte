@@ -7,14 +7,18 @@
 	import FAQ from '$lib/components/main/faq/FAQ.svelte';
 	import InfoBox from '$lib/components/main/infobox/InfoBox.svelte';
 	import SmCmt from '$lib/components/main/header/SmCmt.svelte';
-	import Marquee from '$lib/components/marquee/Marquee.svelte';
+	import SponsorMarquee from '$lib/components/sponsormarquee/SponsorMarquee.svelte';
 
 	const gridinfo = [
 		{ lg: '150', sm: 'HACKERS' },
 		{ lg: '13-19', sm: 'AGES' },
 		{ lg: '24', sm: 'HOURS' }
 	];
-
+	const sponsors = [
+		{ name: 'JLCPCB', logo: '/assets/sponsors/jlcpcb.png' },
+		{ name: 'Wolfram Research', logo: '/assets/sponsors/wolfram.png' },
+		{ name: '.XYZ', logo: '/assets/sponsors/genxyz.png' }
+	];
 </script>
 
 <ScanLine />
@@ -45,7 +49,7 @@
 		<span class="text-lavender">ccuhacks</span> is a teenager-run hackathon in Kolkata, India: a
 		<span class="text-lavender">24-hour sprint</span>
 		where students <span class="text-lavender">aged 13–19</span>
-		build, break, and ship <span class="text-lavender">cool stuff.</span> Mentors, meals, and drinks on
+		build, break, and ship <span class="text-lavender">cool stuff.</span> Mentors, meals, and snacks on
 		us.
 	</p>
 </section>
@@ -55,8 +59,14 @@
 >
 	<SmCmt>// SPONSORS</SmCmt>
 	<div class="mt-6">
-		<Marquee />
+		<SponsorMarquee />
 	</div>
+
+	<!-- {#each sponsors as sponsor}
+		<div class="card">
+			<img src={sponsor.logo} alt={sponsor.name} class="h-12" />
+		</div>
+	{/each} -->
 </section>
 
 <section
@@ -85,4 +95,3 @@
 		</span>
 	</div>
 </section>
-

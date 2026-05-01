@@ -3,10 +3,11 @@ import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
 import { ScrollSmoother } from 'gsap/dist/ScrollSmoother';
 import { SplitText } from 'gsap/dist/SplitText';
 import { ScrambleTextPlugin } from 'gsap/all';
+import { Draggable } from 'gsap/Draggable';
 
 gsap.registerPlugin(ScrollTrigger);
 gsap.registerPlugin(SplitText);
 gsap.registerPlugin(ScrollSmoother);
 gsap.registerPlugin(ScrambleTextPlugin);
 
-export { gsap, ScrollTrigger, SplitText, ScrambleTextPlugin };
+export { gsap, ScrollTrigger, SplitText, ScrambleTextPlugin, Draggable };
