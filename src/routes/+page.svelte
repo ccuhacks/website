@@ -14,11 +14,6 @@
 		{ lg: '13-19', sm: 'AGES' },
 		{ lg: '24', sm: 'HOURS' }
 	];
-	const sponsors = [
-		{ name: 'JLCPCB', logo: '/assets/sponsors/jlcpcb.png' },
-		{ name: 'Wolfram Research', logo: '/assets/sponsors/wolfram.png' },
-		{ name: '.XYZ', logo: '/assets/sponsors/genxyz.png' }
-	];
 </script>
 
 <!-- <ScanLine /> -->
@@ -73,7 +68,7 @@
 	class="font-jetbrains bg-raisin border-content-gutter mx-auto flex max-w-115 flex-col items-center border px-3 py-12 md:px-6"
 >
 	<SmCmt>// FAQ</SmCmt>
-	<div class="mt-6">
+	<div class="mt-6 w-full">
 		<FAQ />
 	</div>
 </section>

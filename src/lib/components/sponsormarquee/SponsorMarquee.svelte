@@ -2,7 +2,8 @@
 	const sponsors = [
 		{ name: 'JLCPCB', logo: '/assets/sponsors/jlcpcb.png' },
 		{ name: 'Wolfram Research', logo: '/assets/sponsors/wolfram.png' },
-		{ name: '.XYZ', logo: '/assets/sponsors/genxyz.png' }
+		{ name: '.XYZ', logo: '/assets/sponsors/genxyz.png' },
+		{ name: 'StacksKB', logo: '/assets/sponsors/stackskb_alt.png' }
 	];
 </script>
 

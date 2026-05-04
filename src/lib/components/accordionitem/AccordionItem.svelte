@@ -4,7 +4,7 @@
 </script>
 
 <div class="collapse-plus border-content-gutter collapse rounded-none border-b">
-	<input type="radio" {name} checked />
+	<input type="radio" {name} />
 	<div class="collapse-title text-snow font-semibold">
 		<TextUnscramble text={title} class="text-snow" />
 	</div>
