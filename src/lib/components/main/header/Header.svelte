@@ -3,7 +3,7 @@
 </script>
 
 <div class="text-dis-txt w-full text-center text-sm">
-	<SmCmt>CCU, INDIA /// 2026 /// PWRD BY VOID_WALKERS</SmCmt>
+	<SmCmt>CCU, INDIA /// 2026 /// PWRD BY VOID_Walkers</SmCmt>
 </div>
 <div class="my-6 w-full">
 	<img src="/assets/logo_long.png" alt="CCUHACKS" class="w-full" />
