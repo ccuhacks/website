@@ -11,10 +11,10 @@
 	<AccordionItem name="faq" title="Who can attend?">
 		Any student aged 13-19 can attend ccuhacks!
 	</AccordionItem>
-	<AccordionItem name="faq" title="How much does it cost?">
+	<!-- <AccordionItem name="faq" title="How much does it cost?">
 		Nothing! ccuhacks is completely free to attend. We provide mentors, meals and snacks for all
 		participants.
-	</AccordionItem>
+	</AccordionItem> -->
 	<AccordionItem name="faq" title="Do I need experience to attend?">
 		Nope! Whether you're a seasoned developer or just starting out, there's a place for you at
 		ccuhacks. We welcome students of all skill levels and backgrounds.
