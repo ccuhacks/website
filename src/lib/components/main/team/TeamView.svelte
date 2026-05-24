@@ -8,7 +8,7 @@
 		{
 			name: 'Ritam Das',
 			role: 'Lead Organizer',
-			img: '/assets/team/ritam2.png'
+			img: '/assets/team/ritam.png'
 		},
 		{
 			name: 'Ketan Chowdhury',
