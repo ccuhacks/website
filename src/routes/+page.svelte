@@ -36,9 +36,12 @@
 		{/each}
 	</div>
 
-	<div class="mt-10">
+	<div class="mt-10 flex flex-col items-center">
 		<span class="text-3xl md:text-4xl">
 			<LinkNT href="https://ccuhacks.fillout.com/rsvp" text=">>> RSVP NOW <<<" />
+		</span>
+		<span class="mt-4 text-3xl md:text-4xl">
+			<LinkNT href="https://ccuhacks.devfolio.co/overview" text="Devfolio" />
 		</span>
 	</div>
 </section>
