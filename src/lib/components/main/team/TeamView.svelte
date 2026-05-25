@@ -28,7 +28,7 @@
 		{
 			name: 'Yash Raghuwanshi',
 			role: 'Organizer',
-			img: '/assets/team/default.png'
+			img: '/assets/team/yash.png'
 		},
 		{
 			name: 'Souptik Samanta',
@@ -52,10 +52,11 @@
 			spaceBetween: 20,
 			direction: 'horizontal',
 			loop: true,
-			speed: 500,
+			// speed: 3000,
+			speed: 400,
 			centeredSlides: true,
 			// autoplay: {
-			// 	delay: 1000,
+			// 	delay: 0,
 			// 	disableOnInteraction: true
 			// },
 			navigation: {
@@ -85,6 +86,10 @@
 </div>
 
 <style>
+	.swiper {
+		/* Forces the slider to move at a completely uniform speed */
+		/* --swiper-wrapper-transition-timing-function: linear !important; */
+	}
 	/* somehow swiper needs explicit styles and width defs */
 	.swiper-slide {
 		width: auto;
