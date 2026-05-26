@@ -23,7 +23,6 @@
 	];
 </script>
 
-<!-- <ScanLine /> -->
 <section
 	class="font-jetbrains bg-raisin border-content-gutter mx-auto flex max-w-115 flex-col items-center border px-3 py-12 md:px-6"
 >
@@ -36,9 +35,9 @@
 		{/each}
 	</div>
 
-	<div class="mt-10">
-		<span class="text-3xl md:text-4xl">
-			<LinkNT href="https://ccuhacks.fillout.com/rsvp" text=">>> RSVP NOW <<<" />
+	<div class="mt-10 flex flex-col items-center">
+		<span class="text-center text-xl md:text-2xl">
+			<LinkNT href="https://ccuhacks.devfolio.co/" text="Register Using Devfolio" />
 		</span>
 	</div>
 </section>
@@ -60,10 +59,6 @@
 	class="font-jetbrains bg-raisin border-content-gutter mx-auto flex max-w-115 flex-col items-center border px-3 py-12 md:px-6"
 >
 	<SmCmt>// SPONSORS</SmCmt>
-	<!-- <div class="mt-6 overflow-hidden">
-		<SponsorMarquee />
-	</div> -->
-
 	<div class="mt-6 flex flex-wrap gap-2">
 		{#each sponsors as sponsor}
 			<div class="card m-1/2">
@@ -87,7 +82,6 @@
 >
 	<SmCmt>// THE TEAM</SmCmt>
 	<div class="mt-6 w-115 overflow-hidden">
-		<!-- <TeamMemberCard name="Ritam Kom Das" role="Executive Organizer" img="/assets/team/ritam.png" /> -->
 		<TeamView />
 	</div>
 </section>
