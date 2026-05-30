@@ -97,10 +97,10 @@ export const sponsorsGrouped = {
 
 export const sponsorLabels = {
 	title: 'TITLE SPONSOR',
-	gold: 'GOLD SPONSORS',
-	silver: 'SILVER SPONSORS',
-	bronze: 'BRONZE SPONSORS',
-	inKind: 'IN-KIND SPONSORS',
-	food: 'FOOD PARTNERS',
-	community: 'COMMUNITY PARTNERS'
+	gold: 'GOLD SPONSOR',
+	silver: 'SILVER SPONSOR',
+	bronze: 'BRONZE SPONSOR',
+	inKind: 'IN-KIND SPONSOR',
+	food: 'FOOD PARTNER',
+	community: 'COMMUNITY PARTNER'
 } as const;
