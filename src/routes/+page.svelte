@@ -10,21 +10,12 @@
 	import SponsorMarquee from '$lib/components/sponsormarquee/SponsorMarquee.svelte';
 	import TeamView from '$lib/components/main/team/TeamView.svelte';
 	import { ChevronsRight, ChevronsLeft } from '@lucide/svelte/icons';
+	import { sponsorsGrouped, sponsorLabels } from '$lib/data/sponsors';
 
 	const gridinfo = [
 		{ lg: '150', sm: 'HACKERS' },
 		{ lg: '13-19', sm: 'AGES' },
 		{ lg: '24', sm: 'HOURS' }
-	];
-
-	const sponsors = [
-		{ name: 'JLCPCB', logo: '/assets/sponsors/jlcpcb.png' },
-		{ name: 'Wolfram Research', logo: '/assets/sponsors/wolfram.png' },
-		{ name: 'n8n', logo: '/assets/sponsors/n8n_pink_white_logo.png' },
-		{ name: 'StacksKB', logo: '/assets/sponsors/stackskb_alt.png' },
-		{ name: 'Desk Theory', logo: '/assets/sponsors/desk-theory-logo.png' },
-		{ name: 'PlotArmour', logo: '/assets/sponsors/plotarmrlogowhite.png' }
-		// { name: '.XYZ', logo: '/assets/sponsors/genxyz.png' },
 	];
 </script>
 
@@ -78,13 +69,39 @@
 	class="font-jetbrains bg-raisin border-content-gutter mx-auto flex max-w-115 flex-col items-center border px-3 py-12 md:px-6"
 >
 	<SmCmt>// SPONSORS</SmCmt>
-	<div class="mt-6 flex flex-wrap justify-center gap-2">
-		{#each sponsors as sponsor}
-			<div class="card m-2">
-				<img src={sponsor.logo} alt={sponsor.name} class="h-10" />
+
+	<!-- {#each Object.entries(sponsorsGrouped.sponsors) as [tier, tierSponsors]}
+		{#if tierSponsors.length}
+			<div class="mt-8 w-full">
+				<div>{sponsorLabels[tier]}</div>
+
+				<div class="mt-4 flex flex-wrap justify-center gap-2">
+					{#each tierSponsors as sponsor}
+						<div class="card m-2">
+							<img src={sponsor.logo} alt={sponsor.name} class="h-10" />
+						</div>
+					{/each}
+				</div>
 			</div>
-		{/each}
-	</div>
+		{/if}
+	{/each} -->
+
+	{#each Object.entries(sponsorsGrouped) as [tier, tierSponsors]}
+		{#if tierSponsors.length}
+			<div class="mt-8 w-full">
+				<div class="mt-4 flex flex-wrap justify-center gap-2">
+					{#each tierSponsors as sponsor}
+						<div class="card m-2">
+							<img src={sponsor.logo} alt={sponsor.name} class="h-10" />
+						</div>
+					{/each}
+				</div>
+			</div>
+			<div class="text-snowflake mt-4 flex flex-row items-center justify-center gap-2">
+				<ChevronsRight />{sponsorLabels[tier]}<ChevronsLeft />
+			</div>
+		{/if}
+	{/each}
 </section>
 
 <section

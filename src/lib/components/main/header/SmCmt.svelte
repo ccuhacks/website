@@ -3,5 +3,5 @@
 </script>
 
 <div class="text-dis-txt w-full text-sm">
-    {@render children()}
+	{@render children()}
 </div>
