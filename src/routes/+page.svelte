@@ -7,7 +7,6 @@
 	import FAQ from '$lib/components/main/faq/FAQ.svelte';
 	import InfoBox from '$lib/components/main/infobox/InfoBox.svelte';
 	import SmCmt from '$lib/components/main/header/SmCmt.svelte';
-	import SponsorMarquee from '$lib/components/sponsormarquee/SponsorMarquee.svelte';
 	import TeamView from '$lib/components/main/team/TeamView.svelte';
 	import { ChevronsRight, ChevronsLeft } from '@lucide/svelte/icons';
 	import Sponsors from '$lib/components/main/sponsors/Sponsors.svelte';

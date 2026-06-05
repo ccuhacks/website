@@ -37,7 +37,7 @@ export const sponsors: Sponsor[] = [
 		logo: '/assets/sponsors/wolfram.png'
 	},
 	{
-		type: SponsorType.IN_KIND,
+		type: SponsorType.BRONZE,
 		name: 'n8n',
 		href: 'https://n8n.io',
 		logo: '/assets/sponsors/n8n_pink_white_logo.png'

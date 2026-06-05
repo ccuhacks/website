@@ -30,10 +30,15 @@
 			{ text: 'C', isContent: false }
 		],
 		[
-			{ text: 'XXX XXXX ', isContent: false },
-			{ text: 'COMING SOON.', isContent: true },
-			{ text: ' XXXX XXX', isContent: false }
+			{ text: 'XXYXXX ', isContent: false },
+			{ text: '20 TO 21 JUNE, 2026', isContent: true },
+			{ text: ' XXX', isContent: false }
 		],
+		// [
+		// 	{ text: 'XXX ', isContent: false },
+		// 	{ text: 'SOUTH CITY INTL. SCHOOL ', isContent: true },
+		// 	{ text: 'XXX ', isContent: false }
+		// ]
 		[{ text: 'YRE VJ URVSP LWOSH JWPOX I SFF', isContent: false }]
 	];
 
