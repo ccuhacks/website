@@ -38,7 +38,7 @@
 		<div class="bg-lavender hover:bg-snow text-raisin mb-2 flex w-full items-center justify-center">
 			<a href="/register?utm_source=mainpage">
 				<span class="flex items-center gap-4 px-4 text-center text-2xl">
-					<ChevronsRight /> REGISTER VIA DEVFOLIO <ChevronsLeft />
+					<ChevronsRight /> REGISTER NOW! <ChevronsLeft />
 				</span>
 			</a>
 		</div>
