@@ -18,7 +18,6 @@
 	];
 </script>
 
-<!-- <ScanLine /> -->
 <section
 	class="font-jetbrains bg-raisin border-content-gutter mx-auto flex max-w-115 flex-col items-center border px-3 py-12 md:px-6"
 >
@@ -32,9 +31,6 @@
 	</div>
 
 	<div class="mt-10 flex flex-col items-center">
-		<!-- <span class="text-center text-xl md:text-2xl"> -->
-		<!-- <span class="text-snowflake mb-4 text-2xl">{'>>> '} REGISTER NOW {'<<<'}</span> -->
-		<!-- <br /> -->
 		<div class="bg-lavender hover:bg-snow text-raisin mb-2 flex w-full items-center justify-center">
 			<a href="/register?utm_source=mainpage">
 				<span class="flex items-center gap-4 px-4 text-center text-2xl">
@@ -42,7 +38,6 @@
 				</span>
 			</a>
 		</div>
-		<!-- </span> -->
 		<div class="mt-2 w-full text-center">
 			<SmCmt
 				>Need help registering? Contact us at
@@ -111,6 +106,10 @@
 		<br />
 		<span class="text-raisin">
 			<LinkNT text="view sponsorship prospectus" href="/sponsorship_prospectus.pdf" />
+		</span>
+		<br />
+		<span class="text-raisin">
+			<LinkNT text="Equity Policy" href="/Equity, Safety & Code of Conduct Policy_plain.pdf" />
 		</span>
 	</div>
 </section>
